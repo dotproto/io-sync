@@ -1,0 +1,30 @@
+{
+  "name": "io-sync",
+  "version": "0.0.0",
+  "description": "A web-based tool to help the io.js Evangalism WG manage Twitter-based communication",
+  "author": "Simeon Vincent",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/svincent/io-sync.git"
+  },
+  "bugs": {
+    "url": "https://github.com/svincent/io-sync/issues"
+  },
+  "homepage": "https://github.com/svincent/io-sync",
+  "engines": {
+    "iojs": "1.5.x",
+    "npm": "2.7.x"
+  },
+  "dependencies": {
+    "dotenv": "^0.5.1",
+    "escape-html": "^1.0.1",
+    "hapi": "^8.2.0",
+    "require-directory": "^2.1.0"
+  }
+}
